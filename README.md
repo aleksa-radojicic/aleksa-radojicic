@@ -1,45 +1,37 @@
 ## Aleksa Radojičić (Алекса Радојичић)
 > /'aleksa ra'dojit͡ʃɪt͡ɕ/
 
-Hello there 👋 (I hope you got that reference). I'm a software developer with Machine Learning background specializing in System Design, but I also do other stuff:
-- Backend Development (Python)
-- AI Engineering
-- System Administration
-- DevOps
-- Self-Hosting
+Hello there 👋 (I hope you got that reference).
 
-## Passions
-📦 Open Source Software
-<br>
-🐧 Linux (btw. not Arch — surprising, I know)
-<br>
-🦅 Freedom
-<br>
-➖ Minimalism and simplicity
-<br>
-⚙️ Technology
-<br>
-🎵 Music (Bach, David Guetta, KSHMR, Maroon 5...)
+I am a software engineer with a background in data science and machine learning, but my focus has shifted toward building production systems. I am particularly interested in the intersection of backend engineering, AI/LLM applications and infrastructure, with a strong interest in software architecture and system design.
 
-## Personal Projects
+## Currently
+- Building a reproducible VM provisioning pipeline with Packer, Terraform, libvirt and Ansible
+- Operating a self-hosted homelab with 20+ services and centralized observability across multiple devices
+- Maintaining a reproducible Debian workstation setup through automated installation, system bootstrapping and version-controlled dotfiles
+- Building Python backend systems and production-oriented AI/LLM applications
 
-#### Applications
-- [Desktop Java app for Organizing Seminars](https://github.com/aleksa-radojicic/seminars_organizer_app)
-- [Full-Stack Aquaristic E-Commerce Platform in React and Laravel](https://github.com/aleksa-radojicic/iteh_project)
+## Technical Tools
+**Backend:** Python, FastAPI, PostgreSQL, SQLAlchemy
 
-#### Automation
-- [Unattended Linux Debian Installation and System Provisioning](https://github.com/aleksa-radojicic/bootstrap-public)
-- [Homelab — Self-Hosted Applications using mainly Docker](https://github.com/aleksa-radojicic/homelab-public)
-- Dotfiles managed with GNU Stow 
+**AI / Data:** PydanticAI, LangGraph, PyTorch, scikit-learn
 
-#### Machine Learning
-- [Second-Hand Car Prices Prediction using Machine Learning Algorithms in Python](https://github.com/aleksa-radojicic/second_hand_car_price_prediction)
-- [Vehicle Loan Default Prediction using AdaBoost in Python](https://github.com/aleksa-radojicic/lt_loan_default_prediction_adaboost)
-- [Detect Fraudulent Clicks in Mobile App Ads using Machine Learning Algorithms in Python](https://github.com/aleksa-radojicic/AdTracking_Fraud_Detection)
+**Infrastructure:** Linux, Docker, Ansible, Terraform, Packer, CI/CD
 
-## Planned Future Projects
-- 🌐 Website
-- 📝 Blog
-- 🖥️ VPS with public services using Cloudflare
-- 🔁 Set up a 3-2-1 backup solution
-- ➡️ Migrate to Forgejo and mirror my public GitHub projects to the VPS instance
+**Observability:** Prometheus, Loki, Grafana
+
+## Selected Projects
+### [Homelab — Infrastructure, automation and observability](https://github.com/aleksa-radojicic/homelab-public)
+A self-hosted Docker environment running 20+ services. Infrastructure is provisioned with Packer, Terraform and libvirt, while Ansible manages system configuration. Renovate automates dependency update proposals, while CI/CD automates validation and deployment to the production environment. Centralized observability across multiple devices using Alloy, Prometheus, Loki and Grafana, with private networking through Tailscale.
+
+### [Bootstrap — Reproducible Debian provisioning](https://github.com/aleksa-radojicic/bootstrap-public)
+Automated Debian Linux installation and system bootstrapping using preseeded installation media, shell scripts and Ansible. The project provisions a reproducible system from a clean installation while securely handling secrets throughout the process.
+
+### [Second-hand car price prediction](https://github.com/aleksa-radojicic/second_hand_car_price_prediction)
+An end-to-end machine learning project covering data collection from scraped second-hand car listings, persistent storage, feature engineering and model development with hyperparameter optimization. The project demonstrates the full workflow from raw external data to trained predictive models.
+
+### [Seminars organizer](https://github.com/aleksa-radojicic/seminars_organizer_app)
+A Java client-server desktop application based on TCP sockets. The project covers the design of a distributed application, client-server communication and server-side coordination of shared application data, with detailed documentation and UML diagrams covering system requirements, design and development.
+
+### [Full-stack e-commerce application](https://github.com/aleksa-radojicic/iteh_project)
+A full-stack aquaristic e-commerce application developed collaboratively using React and Laravel.
