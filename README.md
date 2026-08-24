@@ -1,3 +1,10 @@
+> [!WARNING]
+> **Free and Open-Source Android is under threat.**
+>
+> Google will turn Android into a locked-down platform, restricting your essential freedom to install apps of your choice. Make your voice heard.
+>
+> [**Keep Android Open**](https://keepandroidopen.org/).
+
 ## Aleksa Radojičić (Алекса Радојичић)
 > /'aleksa ra'dojit͡ʃɪt͡ɕ/
 
@@ -12,7 +19,7 @@ I am a software engineer with a background in data science and machine learning,
 - Building Python backend systems and production-oriented AI/LLM applications
 
 ## Technical Tools
-**Backend:** Python, FastAPI, PostgreSQL, SQLAlchemy
+**Backend:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy
 
 **AI / Data:** PydanticAI, LangGraph, PyTorch, scikit-learn
 
