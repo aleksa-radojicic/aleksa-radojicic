@@ -31,8 +31,8 @@ I am a software engineer with a background in data science and machine learning,
 ### [Homelab — Infrastructure, automation and observability](https://github.com/aleksa-radojicic/homelab-public)
 A self-hosted Docker environment running 20+ services. Infrastructure is provisioned with Packer, Terraform and libvirt, while Ansible manages system configuration. Renovate automates dependency update proposals, while CI/CD automates validation and deployment to the production environment. Centralized observability across multiple devices using Alloy, Prometheus, Loki and Grafana, with private networking through Tailscale.
 
-### [Bootstrap — Reproducible Debian provisioning](https://github.com/aleksa-radojicic/bootstrap-public)
-Automated Debian Linux installation and system bootstrapping using preseeded installation media, shell scripts and Ansible. The project provisions a reproducible system from a clean installation while securely handling secrets throughout the process.
+### [Bootstrap — Debian Linux Workstation Provisioning](https://github.com/aleksa-radojicic/bootstrap-public)
+A reproducible Debian Linux provisioning pipeline that automates unattended OS installation, secure secret handling, package installation and system configuration. It combines preseeded installation media, POSIX shell scripts and Ansible to bootstrap a fully configured personal workstation from a clean netinst Debian ISO, including support for full-disk-encrypted systems.
 
 ### [Second-hand car price prediction](https://github.com/aleksa-radojicic/second_hand_car_price_prediction)
 An end-to-end machine learning project covering data collection from scraped second-hand car listings, persistent storage, feature engineering and model development with hyperparameter optimization. The project demonstrates the full workflow from raw external data to trained predictive models.
