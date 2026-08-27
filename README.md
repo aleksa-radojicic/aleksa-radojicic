@@ -40,5 +40,5 @@ An end-to-end machine learning project covering data collection from scraped sec
 ### [Seminars organizer](https://github.com/aleksa-radojicic/seminars_organizer_app)
 A Java client-server desktop application based on TCP sockets. The project covers the design of a distributed application, client-server communication and server-side coordination of shared application data, with detailed documentation and UML diagrams covering system requirements, design and development.
 
-### [Full-stack e-commerce application](https://github.com/aleksa-radojicic/iteh_project)
-A full-stack aquaristic e-commerce application developed collaboratively using React and Laravel.
+### [Full-stack e-commerce platform](https://github.com/aleksa-radojicic/iteh_project)
+A full-stack e-commerce platform built with React and Laravel REST API, featuring token-based authentication, role-protected administration, product and order management, server-side pagination, and an admin dashboard. It includes database migrations and seeders, along with Docker-based local deployment.
