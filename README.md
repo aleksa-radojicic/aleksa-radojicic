@@ -18,17 +18,19 @@ I am a software engineer with a background in data science and machine learning,
 - Maintaining a reproducible Debian workstation setup through automated installation, system bootstrapping and version-controlled dotfiles
 - Building Python backend systems and production-oriented AI/LLM applications
 
-## Technical Tools
-**Backend:** Python, FastAPI, Flask, PostgreSQL, SQLAlchemy
+## Skills
+**Languages**: Python, Java, SQL, Bash
 
-**AI / Data:** PydanticAI, LangGraph, PyTorch, scikit-learn
+**Backend & Data:** FastAPI, Flask, PostgreSQL, SQLAlchemy, Alembic, Pandas, Pydantic, Redis, RabbitMQ, PySpark, polars, Airflow, pgvector, PostGIS
 
-**Infrastructure:** Linux, Docker, Ansible, Terraform, Packer, CI/CD
+**AI & ML**: PydanticAI, LangGraph, LiteLLM, PyTorch, scikit-learn
 
-**Observability:** Prometheus, Loki, Grafana
+**Cloud & DevOps**: AWS, DigitalOcean, Docker, Terraform, Packer, Ansible, GitHub Actions, Linux
+
+**Infrastructure & Observability**: Prometheus, Grafana, Loki, ELK Stack
 
 ## Selected Projects
-### [Homelab — Infrastructure, automation and observability](https://github.com/aleksa-radojicic/homelab-public)
+### [Homelab — Self-hosted infrastructure, Automation & Observability](https://github.com/aleksa-radojicic/homelab-public)
 A self-hosted Docker environment running 20+ services. Infrastructure is provisioned with Packer, Terraform and libvirt, while Ansible manages system configuration. Renovate automates dependency update proposals, while CI/CD automates validation and deployment to the production environment. Centralized observability across multiple devices using Alloy, Prometheus, Loki and Grafana, with private networking through Tailscale.
 
 ### [Bootstrap — Debian Linux Workstation Provisioning](https://github.com/aleksa-radojicic/bootstrap-public)
